@@ -1,0 +1,25 @@
+name: loading_dialog
+description: A new Flutter package project.
+version: 0.0.1
+homepage:
+repository:
+
+environment:
+  sdk: '>=3.1.4 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  lottie: ^2.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+    - assets/anim/loading.json
+    - assets/anim/load_success.json
+    - assets/anim/load_failed.json
