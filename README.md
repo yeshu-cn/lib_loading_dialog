@@ -25,3 +25,6 @@ progressDialog.updateProgress(progress: 0.5);
 ## Additional information
 
 null
+
+## 发布lib命令
+dart pub publish --server=https://pub.dartlang.org

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:loading_dialog/loading_dialog.dart';
+import 'package:lib_loading_dialog/loading_dialog.dart';
 
 void main() {
   runApp(const MyApp());

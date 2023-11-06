@@ -221,17 +221,17 @@ class _LoadingDialogIndicatorState extends State<LoadingDialogIndicator> with Ti
   @override
   Widget build(BuildContext context) {
     if (widget.complete) {
-      return Lottie.asset('packages/loading_dialog/assets/anim/load_success.json', controller: _controller, onLoaded: (composition) {
+      return Lottie.asset('packages/lib_loading_dialog/assets/anim/load_success.json', controller: _controller, onLoaded: (composition) {
         _controller.duration = const Duration(milliseconds: 1000 * 1);
         _controller.forward();
       });
     } else if (widget.error) {
-      return Lottie.asset('packages/loading_dialog/assets/anim/load_failed.json', controller: _controller, onLoaded: (composition) {
+      return Lottie.asset('packages/lib_loading_dialog/assets/anim/load_failed.json', controller: _controller, onLoaded: (composition) {
         _controller.duration = const Duration(milliseconds: 1000 * 1);
         _controller.forward();
       });
     } else {
-      return Lottie.asset('packages/loading_dialog/assets/anim/loading.json');
+      return Lottie.asset('packages/lib_loading_dialog/assets/anim/loading.json');
     }
   }
 

@@ -1,8 +1,8 @@
-name: loading_dialog
-description: A new Flutter package project.
-version: 0.0.1
+name: lib_loading_dialog
+description: flutter loading dialog package with lottie animation, support loading, success, failed animation
+version: 0.0.2
 homepage:
-repository:
+repository: https://github.com/yeshu-cn/lib_loading_dialog
 
 environment:
   sdk: '>=3.1.4 <4.0.0'
@@ -16,7 +16,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  flutter_lints: ^3.0.0
 
 flutter:
   assets:
